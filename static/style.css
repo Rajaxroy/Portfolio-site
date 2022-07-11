@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&family=Josefin+Sans&family=Raleway:wght@400;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.header {
+    align-items: center;
+    display: flex;
+    padding: 0 4.8rem;
+    height: 7rem;
+    justify-content: space-between;
+
+    
+}
+
+
+.nav-bar ul a:link,
+.nav-bar ul a:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 1.7rem;
+    font-family: 'Josefin Sans', sans-serif;
+    transition: all 0.3s;
+}
+
+.nav-bar ul a:hover,
+.nav-bar ul a:active {
+    color: red;
+}
+
+.nav-list {
+    display: flex;
+    gap: 4.8rem;
+    list-style: none;
+}
+
+.header .logo {
+    display: inline-block;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.header .logo span {
+    color: red;
+}
+
+/* mobile nav icon */
+
+.mobile-nav-btn {
+    display: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+.mobile-nav-icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+.mobile-nav-icon[name = "close-outline"]{
+    display: none;
+}
+
+
+/* Adding Responsiveness  */
+
+@media(max-width: 62em) {
+
+    .header {
+        padding: 0 3rem;
+        position: relative;
+    }
+
+    .header .logo {
+        font-size: 1.5rem;
+    }
+
+    .mobile-nav-btn {
+        display: inline-block;
+        z-index: 999; 
+    }
+
+
+    .nav-bar{
+        background-color: aqua;
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        transform: translateX(100%);
+        transition: all 0.5s  linear;
+        visibility: hidden;
+        pointer-events: none;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .active .nav-bar {
+        transform: translateX(0);
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    .active .mobile-nav-btn .mobile-nav-icon[name = "close-outline"]{
+        display: block;
+    }
+
+    .active .mobile-nav-btn .mobile-nav-icon[name = "menu-outline"]{
+        display: none;
+    }
+
+}
+
+.container {
+    width: 100vw;
+    height: 90vh;
+    background-color: blue;
+}
