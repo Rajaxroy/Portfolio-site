@@ -249,7 +249,7 @@ span {
     }
     .intro {
         width : 100vw;
-        height: 60vh;
+        height: 50vh;
     }
 
     .hero {
@@ -257,7 +257,7 @@ span {
     }
     
     .hero img {
-        width: 60%;
+        width: 90%;
     }
 
     .intro h2 {
