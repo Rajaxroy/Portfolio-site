@@ -1,0 +1,12 @@
+{
+  "name": "portfolio-clone",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Raja Roy's backend engineering portfolio",
+  "scripts": {
+    "dev": "python3 -m http.server 4173 --bind 127.0.0.1 --directory dist",
+    "start": "python3 -m http.server 4173 --bind 127.0.0.1 --directory dist",
+    "build": "python3 scripts/build.py",
+    "check": "node --check dist/assets/app.js && python3 scripts/check.py"
+  }
+}

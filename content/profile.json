@@ -1,0 +1,96 @@
+{
+  "name": "Raja Roy",
+  "initials": "RR",
+  "title": "Backend Software Engineer",
+  "location": "Bengaluru, India",
+  "email": "rajaroy495@gmail.com",
+  "github": "https://github.com/Rajaxroy",
+  "linkedin": "https://www.linkedin.com/in/rajaxroy/",
+  "resume": "/assets/Raja_Roy_Resume.pdf",
+  "summary": "I’m a backend engineer with 4 years of experience building APIs, lending platforms, and compliance systems across fintech and security. I work on stateful, asynchronous workflows, database design, service integrations, and production reliability.",
+  "focus": "APIs that work. Systems that recover.",
+  "focus_description": "From lending decisions to payroll compliance, I build the workflows behind the product — with clear state transitions, dependable data, and a way back when things fail.",
+  "skills": [
+    {"name": "Languages", "icon": "code", "color": "pink", "items": ["Python", "Go", "TypeScript", "JavaScript", "SQL"]},
+    {"name": "Backend & APIs", "icon": "server", "color": "cyan", "items": ["FastAPI", "NestJS", "Node.js", "Flask", "Django", "REST APIs"]},
+    {"name": "Databases & Search", "icon": "database", "color": "yellow", "items": ["PostgreSQL", "MySQL", "Redis", "Elasticsearch", "Database design"]},
+    {"name": "Async Workflows", "icon": "workflow", "color": "purple", "items": ["RabbitMQ", "BullMQ", "Background jobs", "Retries & reconciliation", "Idempotency"]},
+    {"name": "Cloud & Delivery", "icon": "cloud", "color": "green", "items": ["AWS EC2", "AWS Glue", "Docker", "Nginx", "GitHub Actions"]},
+    {"name": "Design & Automation", "icon": "tools", "color": "coral", "items": ["HLD / LLD", "Caching", "RPA Framework", "Selenium", "Pandas"]}
+  ],
+  "familiarity": ["Temporal", "Kubernetes · basic", "Prometheus · basic", "Grafana · basic"],
+  "experience": [
+    {
+      "company": "Razorpay",
+      "role": "Software Engineer",
+      "area": "Payroll & Compliance Backend",
+      "dates": "Mar 2025 — Present",
+      "current": true,
+      "color": "green",
+      "intro": "Building reliable payroll and compliance workflows, from API and schema design to reconciliation, incident response, and recovery.",
+      "highlights": [
+        "Owned PF workflow reliability improvements for 1,500+ organizations, resolving calculation, integration, and recovery failures to help improve automated payment success to approximately 99%.",
+        "Designed Master Transaction Record state tracking for payment workflows in a Temporal-orchestrated service, with error classification, retries, reconciliation, and recovery for stuck or partial workflows.",
+        "Developed Quicko-integrated TDS APIs for CSI file handling, FVU generation, filing orchestration, audit logging, and idempotent processing.",
+        "Automated KAPT calculation and payments for approximately 1,000 organizations; built a reconciliation engine to match bank payment data with internal ledger records.",
+        "Reworked employee onboarding into a draft-first flow supporting progressive completion."
+      ],
+      "tags": ["Compliance systems", "Stateful workflows", "Payment reconciliation"]
+    },
+    {
+      "company": "Kinara Capital",
+      "role": "Software Engineer",
+      "area": "Backend & Lending Platform",
+      "dates": "Dec 2023 — Mar 2025",
+      "current": false,
+      "color": "yellow",
+      "intro": "Built lending integrations, configurable decision systems, and asynchronous workflows for partner and operations teams.",
+      "highlights": [
+        "Built a Business Rules Engine for Khatabook and other lending partners handling approximately 1,000–2,000 eligibility requests per day, replacing a paid third-party solution.",
+        "Integrated CKYC search and download through certificate-based APIs, CRIF credit assessment, and existing-customer eligibility checks.",
+        "Improved lending APIs through Redis caching, request batching, and SQL optimization; built asynchronous workflows with Python, NestJS, FastAPI, Flask, BullMQ, and RabbitMQ.",
+        "Designed a bulk CSV loan-booking approach and service architecture targeting approximately 100,000 records per day.",
+        "Received the Q1 FY 2024–25 Certificate of Appreciation for contributions to technology and innovation."
+      ],
+      "tags": ["Lending", "Rules engines", "Partner integrations"]
+    },
+    {
+      "company": "Netsurion",
+      "role": "Associate Python Developer",
+      "area": "Security Engineering",
+      "dates": "Oct 2022 — Nov 2023",
+      "current": false,
+      "color": "purple",
+      "intro": "Worked on security detection and event analysis across Linux and Windows environments.",
+      "highlights": [
+        "Built a Python-based detection tool analyzing Elasticsearch event streams.",
+        "Implemented real-time alerts for port and host scans, attack patterns, and login anomalies to support proactive threat investigation."
+      ],
+      "tags": ["Python", "Elasticsearch", "Security detection"]
+    }
+  ],
+  "project": {
+    "name": "RoleOS",
+    "label": "AI job-search platform · personal project",
+    "url": "https://roleos-eight.vercel.app",
+    "github": "https://github.com/Rajaxroy/job-search-agent",
+    "description": "A job-search platform that turns a résumé and job description into an explainable fit assessment, identifies gaps, supports interview preparation, and tracks applications.",
+    "highlights": [
+      "FastAPI and PostgreSQL backend with résumé parsing, staged discovery, and deterministic matching.",
+      "React and TypeScript frontend with account isolation and authentication.",
+      "AI assistance with validated outputs and deterministic fallbacks so core matching remains usable without model credentials."
+    ],
+    "tags": ["Python", "FastAPI", "PostgreSQL", "React", "TypeScript", "Docker"]
+  },
+  "education": {
+    "degree": "B.E. in Electronics & Communication",
+    "institution": "Technocrats Institute of Technology, Bhopal",
+    "dates": "2016 — 2020",
+    "grade": "CGPA 7.12"
+  },
+  "provenance": {
+    "resume_path": "/home/eos/Development/resume-updates/Raja_Roy_Backend_Resume_RoleOS.pdf",
+    "project_readme": "/home/eos/Development/job-search-agent/README.md",
+    "notes": "ChatGPT history was not accessible. Employment, dates, skills, and metrics come from the local résumé and have not been independently verified. RoleOS copy also uses its current local README; it omits the résumé's conflicting LangGraph claim. No headshot, availability, contribution counts, personal notes, or response-time promises were inferred."
+  }
+}
