@@ -23,8 +23,8 @@ Update `content/profile.json`, then run `npm run build` and `npm run check`. Str
 
 ChatGPT history was not accessible. Dates and metrics reflect the local résumé and have not been independently verified. No headshot, availability status, response-time promise, contribution counts, or personal articles were invented. An initials avatar replaces the reference portrait; `/notes/` redirects home.
 
-The résumé's phone number is not repeated on the page; it remains in the downloadable PDF. The site remains local. External project and profile links use destinations supplied by the résumé or local project metadata.
+The résumé's phone number is not repeated on the page; it remains in the downloadable PDF. Production: https://raja-roy-portfolio.vercel.app. Source branch: https://github.com/Rajaxroy/Portfolio-site/tree/raja-roy-portfolio. Vercel deployments currently use direct source uploads; automatic Git deployments are not configured. External project and profile links use destinations supplied by the résumé or local project metadata.
 
-Checks cover JavaScript syntax, identity, assets, anchors, accessible heading references, and removal of the previous owner's content. Browser preview is still unverified because local server sockets are blocked in this session. Responsive desktop and mobile layouts need visual review.
+Checks cover JavaScript syntax, identity, assets, anchors, accessible heading references, and removal of the previous owner's content. The production page was checked at desktop and mobile viewport sizes with REA, including navigation, experience disclosures, email copying, and page errors. Local server sockets remain blocked in this session.
 
 REA observations and screenshots remain in `evidence/` for design provenance, outside the served `dist/` directory. They describe the reference author, not Raja Roy.
